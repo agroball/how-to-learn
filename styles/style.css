@@ -9,12 +9,64 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+div {
+  border: 1px solid green;
+}
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  border: 1px solid blue;
+  position: relative;
 }
+.logo {
+  display:flex;
+}
+.logo_place_header {
+  border: 1px solid red;
+  position: absolute;
+  top:30px;
+  left:64px;
+  width:183px;
+  height: 32px;
+}
+.header_title {
+  display:flex;
+  align-items: center;
+  width: 730px;
+  height: 192px;
+  margin-left: 64px;
+  
+} 
+.title {
+  font-size: 102px;
+  font-weight: bolder;
+}
+.header_subtitle {
+  display:flex;
+  position: absolute;
+  bottom:30px;
+  left:64px;
+  width:388px;
+  height: 75px;
+}
+.subtitle {
+  font-size:18px;
+  font-weight: normal;
+}
+
+
+.content {
+  border: 1px solid red;
+}
+.footer {
+  border: 1px solid red;
+}
+
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
