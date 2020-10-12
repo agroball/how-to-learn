@@ -240,7 +240,6 @@ z-index: 1;
 }
 .section-title_theme_dark {
   color: white;
-  margin-top: 90px;
 }
 .section-subtitle_theme_dark {
   color: white;
@@ -271,6 +270,7 @@ z-index: 1;
   width: 877px;
   height: 877px;
   z-index: 1;
+  background-size: cover;
 }
 
 
